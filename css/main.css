@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'futura_ltregular';
+    src: url('../futura/futuralt-webfont.eot');
+    src: url('../futura/futuralt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../futura/futuralt-webfont.woff2') format('woff2'),
+         url('../futura/futuralt-webfont.woff') format('woff'),
+         url('../futura/futuralt-webfont.ttf') format('truetype'),
+         url('../futura/futuralt-webfont.svg#futura_ltregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('../geosans/geosanslight-webfont.eot');
+    src: url('../geosans/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../geosans/geosanslight-webfont.woff2') format('woff2'),
+         url('../geosans/geosanslight-webfont.woff') format('woff'),
+         url('../geosans/geosanslight-webfont.ttf') format('truetype'),
+         url('../geosans/geosanslight-webfont.svg#geosanslightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    background-color: #3f4752;
+    height: 100%; 
+}
+
+.app-title-top,
+.app-title-bottom {
+    text-align: center; 
+    font-family: futura_ltregular;
+    text-transform: uppercase; 
+    font-size: 3em; 
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+.first {
+    color: #00a7ab;
+}
+
+.second {
+    color: #d0d0d0;
+}
+
+.app-title-top {
+    margin-top: 1em; 
+}
+
+.app-title-bottom {
+    margin-bottom: 1em; 
+}
+
+.music-note {
+    width: 1em;
+    padding-right: 0.3em;
+}
+
+.question-box {
+    background-color: #4d5a67;
+    width: 70%; 
+    border-radius: 10px; 
+    height: 25em; 
+    margin: 0 auto; 
+    font-family: geosanslightregular;
+    padding: 2% 5% 0 5%;
+    position: relative;
+}
+
+.qn-number-container {
+    display: inline-block; 
+    width: 10%; 
+}
+
+.question-number {
+    background-color: #656c76;
+    width: 1.5em; 
+    height: 1.5em; 
+    border-radius: 50%; 
+    text-align: center; 
+    font-size: 1.5em; 
+    font-weight: 600; 
+    margin: 0 auto; 
+    padding-top: 0.3em; 
+}
+
+.question-answer {
+    display: inline-block; 
+    vertical-align: top;
+    width: 80%; 
+}
+
+.question-answer p {
+    font-size: 1.5em; 
+    color: white; 
+    font-weight: 600; 
+}
+
+.question-answer ul {
+    padding-top: 5%; 
+    padding-bottom: 1%; 
+}
+
+.question-answer ul li {
+    color: white; 
+    background-color: #656c76;
+    margin-bottom: 2%; 
+    font-size: 1.5em; 
+    padding: 1% 1% 1% 5%; 
+}
+
+.question-answer ul li:hover {
+    cursor: pointer;
+    background-color: #9199a4;
+}
+
+.next-container {
+    width: 90.5%;  
+    text-align: right; 
+}
+
+button {
+    font-family: geosanslightregular; 
+    font-size: 1.2em; 
+    border: none; 
+    border-radius: 0.2em; 
+    width: 10em; 
+    outline: none;
+    background-color: #1ba7ab;
+    color: white; 
+    padding: 1% 1%;  
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #06b5b9;
+}
+
+.progress-bar {
+    width: 20%; 
+    height: 3px; 
+    position: absolute; 
+    bottom: 0;
+    left: 0; 
+    background-color: #f06068;
+    margin-left: 0.5em; 
+}
+
+.percentage {
+    color: #c9c9c9;
+    font-size: 1.1em; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    margin-left: 0.5em; 
+    margin-bottom: 0.5em; 
+}
+
+.footer {
+    margin-top: 2.5em; 
+    padding-bottom: 2em; 
+}
+
+.footer-text {
+    text-align: center; 
+    color: white; 
+    font-family: geosanslightregular; 
+    font-size: 1.2em; 
+    letter-spacing: 0.03em; 
+    font-weight: 300;
+    margin-bottom: 0.4em;
+}
+
+a {
+    text-decoration: none; 
+    color: #9ea2a7; 
+    
+}
+
+a:hover {
+    color: #fff; 
+}
